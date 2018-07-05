@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Ebook</string>
+    <string name="enter_name">Enter Your Name</string>
+    <string name="enter_pass">Enter Your Password</string>
+    <string name="forgot_pass">Forgot Your Password?</string>
+    <string name="register">Register</string>
+    <string name="have_account">Have an account?</string>
+    <string name="creat_account">Create an account</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_age">Your Age</string>
+    <string name="your_pas">Your password</string>
+    <string name="your_phone">Your Phone</string>
+    <string name="confirm_pass">Confirm password</string>
+    <string name="create_account">Create Account</string>
+    <string name="your_name2">Your Name:</string>
+    <string name="your_pas2">Your Password:</string>
+    <string name="save">Save</string>
+    <string name="main">Main</string>
+    <string name="welcome">Welcome</string>
+    <string name="add_book">Add Book</string>
+    <string name="delete_book">Delete Book</string>
+    <string name="show_book">show all Books</string>
+    <string name="fovirte_book">Favorite book</string>
+    <string name="favorite_book">Favorite book</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="create_email">Your Email</string>
+    <string name="haveaccount">Your have an account</string>
+    <string name="next">Next</string>
+    <string name="edit">Edit</string>
+    <string name="profile">Profile</string>
+    <string name="Setting">Setting</string>
+    <string name="logout">Log out</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.first.sab.ebook.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/image2th"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/mainlogo"/>
+
+    <EditText
+        android:id="@+id/enter_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+
+        android:id="@+id/enter_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_pass"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"/>
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/forgot_pass"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:background="@drawable/butn_shape"
+        android:textColor="@color/colorAccent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/line2">
+
+        <TextView
+            android:id="@+id/textview_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_account"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+
+            android:text="@string/creat_account"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
